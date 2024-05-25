@@ -1,0 +1,5 @@
+aprf-drv-dkms (1.0.0) stable; urgency=low
+
+  * Automatically packaged by DKMS.
+
+

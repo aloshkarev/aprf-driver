@@ -1,0 +1,12 @@
+Source: aprf-drv-dkms
+Section: misc
+Priority: optional
+Maintainer: Aleksandr Loshkarev <hi@aloshkarev.ru>
+Build-Depends: debhelper (>= 7), dkms
+Standards-Version: 3.8.1
+
+Package: aprf-drv-dkms
+Architecture: amd64
+Provides: aprf-drv-modules (= 1.0.0)
+Depends: dkms (>= 1.95), ${misc:Depends}, linux-lowlatency (< 5.19.0), libnl-3-dev (>= 3.5.0), libnl-genl-3-dev (>= 3.5.0)
+Description: wifi rf emulator
